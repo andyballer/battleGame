@@ -1,0 +1,950 @@
+{
+  "levelNames": [
+    "Level 1"
+  ],
+  "Level 1": {
+    "levelParams": {
+      "myGameName": "Game 1",
+      "myLevelName": "Level 1",
+      "myTileSize": 0,
+      "myRows": 10,
+      "myCols": 10,
+      "playerfirst": true
+    },
+    "gameObjectDefinitionMapJGPoint": [
+      {
+        "x": 0,
+        "y": 0
+      },
+      {
+        "x": 3,
+        "y": 0
+      },
+      {
+        "x": 3,
+        "y": 9
+      },
+      {
+        "x": 9,
+        "y": 9
+      },
+      {
+        "x": 6,
+        "y": 9
+      },
+      {
+        "x": 6,
+        "y": 3
+      },
+      {
+        "x": 3,
+        "y": 3
+      }
+    ],
+    "gameObjectDefinitionMapJGPoint(0,0)value": {
+      "PickUp": {
+        "buffs": {
+          "myStats": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "actions": [],
+        "jGameGraphicPath": "1398965364620",
+        "originalGraphicPath": "/resources/images/flag_64.png",
+        "collisionID": 4,
+        "name": "",
+        "x": 90,
+        "y": 50,
+        "row": 0,
+        "col": 0,
+        "isMovable": false,
+        "isCollectible": true,
+        "type": "Stock",
+        "objName": "Flag"
+      }
+    },
+    "gameObjectDefinitionMapJGPoint(0,0)class": "objects.definitions.PickupObjectDef",
+    "gameObjectDefinitionMapJGPoint(3,0)value": {
+      "levelParams": {
+        "team": 0,
+        "stats": {
+          "myStats": [
+            150.0,
+            150.0,
+            200.0,
+            100.0,
+            3.0,
+            2.0
+          ]
+        },
+        "growths": {
+          "myStats": [
+            0.1,
+            0.5,
+            0.1,
+            0.1,
+            0.1,
+            0.1
+          ]
+        },
+        "level": 1,
+        "experience": 0,
+        "jGameGraphicPath": "Default Object-61398965251477",
+        "originalGraphicPath": "/resources/images/standard_player_64.png",
+        "collisionID": 1,
+        "name": "Default Object-6",
+        "x": 90,
+        "y": 218,
+        "row": 3,
+        "col": 0,
+        "isMovable": true,
+        "isCollectible": false,
+        "type": "Player",
+        "objName": "Standard Player"
+      },
+      "Inventory": [
+        {
+          "buffs": {
+            "myStats": [
+              0.2,
+              0.5,
+              0.2,
+              0.2,
+              0.2,
+              0.2
+            ]
+          },
+          "actions": [
+            "Boost"
+          ],
+          "jGameGraphicPath": "",
+          "originalGraphicPath": "",
+          "collisionID": 4,
+          "name": "Small Gem",
+          "x": -1,
+          "y": -1,
+          "row": -1,
+          "col": -1,
+          "isMovable": false,
+          "isCollectible": true,
+          "type": "Stock",
+          "objName": "Gem"
+        },
+        {
+          "buffs": {
+            "myStats": [
+              0.0,
+              0.2,
+              0.1,
+              0.1,
+              0.1,
+              0.1
+            ]
+          },
+          "actions": [
+            "Boost"
+          ],
+          "jGameGraphicPath": "",
+          "originalGraphicPath": "",
+          "collisionID": 4,
+          "name": "Small Potion",
+          "x": -1,
+          "y": -1,
+          "row": -1,
+          "col": -1,
+          "isMovable": false,
+          "isCollectible": true,
+          "type": "Stock",
+          "objName": "Potion"
+        },
+        {
+          "buffs": {
+            "myStats": [
+              0.2,
+              0.5,
+              0.2,
+              0.2,
+              0.2,
+              0.2
+            ]
+          },
+          "actions": [
+            "Boost"
+          ],
+          "jGameGraphicPath": "",
+          "originalGraphicPath": "",
+          "collisionID": 4,
+          "name": "Coin",
+          "x": -1,
+          "y": -1,
+          "row": -1,
+          "col": -1,
+          "isMovable": false,
+          "isCollectible": true,
+          "type": "Stock",
+          "objName": "Coin"
+        },
+        {
+          "buffs": {
+            "myStats": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "actions": [
+            "PlaceRock"
+          ],
+          "jGameGraphicPath": "",
+          "originalGraphicPath": "",
+          "collisionID": 4,
+          "name": "Wheelbarrow",
+          "x": -1,
+          "y": -1,
+          "row": -1,
+          "col": -1,
+          "isMovable": false,
+          "isCollectible": true,
+          "type": "Stock",
+          "objName": "Wheelbarrow"
+        },
+        {
+          "buffs": {
+            "myStats": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "actions": [
+            "PlantTree"
+          ],
+          "jGameGraphicPath": "",
+          "originalGraphicPath": "",
+          "collisionID": 4,
+          "name": "Watering Can",
+          "x": -1,
+          "y": -1,
+          "row": -1,
+          "col": -1,
+          "isMovable": false,
+          "isCollectible": true,
+          "type": "Stock",
+          "objName": "Watering Can"
+        }
+      ],
+      "Inventory-Small Gem-Gem": 2,
+      "Inventory-Small Potion-Potion": 2,
+      "Inventory-Coin-Coin": 2,
+      "Inventory-Wheelbarrow-Wheelbarrow": 2,
+      "Inventory-Watering Can-Watering Can": 2,
+      "Weapon": [
+        {
+          "PickUp": {
+            "buffs": {
+              "myStats": [
+                0.0,
+                0.0,
+                0.2,
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            "actions": [
+              "Boost"
+            ],
+            "jGameGraphicPath": "",
+            "originalGraphicPath": "",
+            "collisionID": 4,
+            "name": "Basic Sword",
+            "x": -1,
+            "y": -1,
+            "row": -1,
+            "col": -1,
+            "isMovable": false,
+            "isCollectible": true,
+            "type": "Weapon",
+            "objName": "Sword"
+          }
+        },
+        {
+          "PickUp": {
+            "buffs": {
+              "myStats": [
+                0.0,
+                0.0,
+                0.0,
+                0.2,
+                0.0,
+                0.0
+              ]
+            },
+            "actions": [
+              "Boost"
+            ],
+            "jGameGraphicPath": "",
+            "originalGraphicPath": "",
+            "collisionID": 4,
+            "name": "Basic Shield",
+            "x": -1,
+            "y": -1,
+            "row": -1,
+            "col": -1,
+            "isMovable": false,
+            "isCollectible": true,
+            "type": "Weapon",
+            "objName": "Shield"
+          }
+        }
+      ],
+      "Action": [
+        "PickUp"
+      ]
+    },
+    "gameObjectDefinitionMapJGPoint(3,0)class": "objects.definitions.UnitDef",
+    "gameObjectDefinitionMapJGPoint(3,9)value": {
+      "levelParams": {
+        "team": 0,
+        "stats": {
+          "myStats": [
+            100.0,
+            100.0,
+            300.0,
+            300.0,
+            3.0,
+            2.0
+          ]
+        },
+        "growths": {
+          "myStats": [
+            1.0,
+            1.0,
+            0.1,
+            0.1,
+            0.1,
+            0.1
+          ]
+        },
+        "level": 1,
+        "experience": 0,
+        "jGameGraphicPath": "Default Object-61398965251496",
+        "originalGraphicPath": "/resources/images/standard_player_64.png",
+        "collisionID": 1,
+        "name": "Default Object-6",
+        "x": 594,
+        "y": 218,
+        "row": 3,
+        "col": 9,
+        "isMovable": true,
+        "isCollectible": false,
+        "type": "Player",
+        "objName": "Standard Player"
+      },
+      "Inventory": [
+        {
+          "buffs": {
+            "myStats": [
+              0.0,
+              0.2,
+              0.1,
+              0.1,
+              0.1,
+              0.1
+            ]
+          },
+          "actions": [
+            "Boost"
+          ],
+          "jGameGraphicPath": "",
+          "originalGraphicPath": "",
+          "collisionID": 4,
+          "name": "Gem",
+          "x": -1,
+          "y": -1,
+          "row": -1,
+          "col": -1,
+          "isMovable": false,
+          "isCollectible": true,
+          "type": "Stock",
+          "objName": "Gem"
+        },
+        {
+          "buffs": {
+            "myStats": [
+              0.0,
+              0.2,
+              0.1,
+              0.1,
+              0.1,
+              0.1
+            ]
+          },
+          "actions": [
+            "Boost"
+          ],
+          "jGameGraphicPath": "",
+          "originalGraphicPath": "",
+          "collisionID": 4,
+          "name": "Coin",
+          "x": -1,
+          "y": -1,
+          "row": -1,
+          "col": -1,
+          "isMovable": false,
+          "isCollectible": true,
+          "type": "Stock",
+          "objName": "Coin"
+        },
+        {
+          "buffs": {
+            "myStats": [
+              0.0,
+              0.2,
+              0.1,
+              0.1,
+              0.1,
+              0.1
+            ]
+          },
+          "actions": [
+            "Boost"
+          ],
+          "jGameGraphicPath": "",
+          "originalGraphicPath": "",
+          "collisionID": 4,
+          "name": "Potion",
+          "x": -1,
+          "y": -1,
+          "row": -1,
+          "col": -1,
+          "isMovable": false,
+          "isCollectible": true,
+          "type": "Stock",
+          "objName": "Potion"
+        },
+        {
+          "buffs": {
+            "myStats": [
+              0.0,
+              0.2,
+              0.1,
+              0.1,
+              0.1,
+              0.1
+            ]
+          },
+          "actions": [
+            "PlaceRock"
+          ],
+          "jGameGraphicPath": "",
+          "originalGraphicPath": "",
+          "collisionID": 4,
+          "name": "Wheelbarrow",
+          "x": -1,
+          "y": -1,
+          "row": -1,
+          "col": -1,
+          "isMovable": false,
+          "isCollectible": true,
+          "type": "Stock",
+          "objName": "Wheelbarrow"
+        },
+        {
+          "buffs": {
+            "myStats": [
+              0.0,
+              0.2,
+              0.1,
+              0.1,
+              0.1,
+              0.1
+            ]
+          },
+          "actions": [
+            "PlantTree"
+          ],
+          "jGameGraphicPath": "",
+          "originalGraphicPath": "",
+          "collisionID": 4,
+          "name": "Watering Can",
+          "x": -1,
+          "y": -1,
+          "row": -1,
+          "col": -1,
+          "isMovable": false,
+          "isCollectible": true,
+          "type": "Stock",
+          "objName": "Watering Can"
+        }
+      ],
+      "Inventory-Gem-Gem": 2,
+      "Inventory-Coin-Coin": 2,
+      "Inventory-Potion-Potion": 2,
+      "Inventory-Wheelbarrow-Wheelbarrow": 2,
+      "Inventory-Watering Can-Watering Can": 2,
+      "Weapon": [
+        {
+          "PickUp": {
+            "buffs": {
+              "myStats": [
+                0.0,
+                0.0,
+                0.2,
+                0.2,
+                0.2,
+                0.2
+              ]
+            },
+            "actions": [
+              "Boost"
+            ],
+            "jGameGraphicPath": "",
+            "originalGraphicPath": "",
+            "collisionID": 4,
+            "name": "Sword",
+            "x": -1,
+            "y": -1,
+            "row": -1,
+            "col": -1,
+            "isMovable": false,
+            "isCollectible": true,
+            "type": "Weapon",
+            "objName": "Sword"
+          }
+        },
+        {
+          "PickUp": {
+            "buffs": {
+              "myStats": [
+                0.0,
+                0.0,
+                0.2,
+                0.2,
+                0.2,
+                0.2
+              ]
+            },
+            "actions": [
+              "Boost"
+            ],
+            "jGameGraphicPath": "",
+            "originalGraphicPath": "",
+            "collisionID": 4,
+            "name": "Shield",
+            "x": -1,
+            "y": -1,
+            "row": -1,
+            "col": -1,
+            "isMovable": false,
+            "isCollectible": true,
+            "type": "Weapon",
+            "objName": "Shield"
+          }
+        }
+      ],
+      "Action": [
+        "PickUp"
+      ]
+    },
+    "gameObjectDefinitionMapJGPoint(3,9)class": "objects.definitions.UnitDef",
+    "gameObjectDefinitionMapJGPoint(9,9)value": {
+      "levelParams": {
+        "team": 0,
+        "stats": {
+          "myStats": [
+            200.0,
+            200.0,
+            400.0,
+            0.0,
+            3.0,
+            2.0
+          ]
+        },
+        "growths": {
+          "myStats": [
+            0.0,
+            0.0,
+            0.1,
+            0.1,
+            0.1,
+            0.1
+          ]
+        },
+        "level": 1,
+        "experience": 0,
+        "jGameGraphicPath": "Steve1398965251513",
+        "originalGraphicPath": "/resources/images/standard_player_64.png",
+        "collisionID": 1,
+        "name": "Steve",
+        "x": 594,
+        "y": 554,
+        "row": 9,
+        "col": 9,
+        "isMovable": true,
+        "isCollectible": false,
+        "type": "Player",
+        "objName": "Standard Player"
+      },
+      "Inventory": [
+        {
+          "buffs": {
+            "myStats": [
+              0.0,
+              0.2,
+              0.1,
+              0.1,
+              0.1,
+              0.1
+            ]
+          },
+          "actions": [
+            "Boost"
+          ],
+          "jGameGraphicPath": "",
+          "originalGraphicPath": "",
+          "collisionID": 4,
+          "name": "Gem",
+          "x": -1,
+          "y": -1,
+          "row": -1,
+          "col": -1,
+          "isMovable": false,
+          "isCollectible": true,
+          "type": "Stock",
+          "objName": "Gem"
+        },
+        {
+          "buffs": {
+            "myStats": [
+              0.0,
+              0.2,
+              0.1,
+              0.1,
+              0.1,
+              0.1
+            ]
+          },
+          "actions": [
+            "Boost"
+          ],
+          "jGameGraphicPath": "",
+          "originalGraphicPath": "",
+          "collisionID": 4,
+          "name": "Coin",
+          "x": -1,
+          "y": -1,
+          "row": -1,
+          "col": -1,
+          "isMovable": false,
+          "isCollectible": true,
+          "type": "Stock",
+          "objName": "Coin"
+        },
+        {
+          "buffs": {
+            "myStats": [
+              0.0,
+              0.2,
+              0.1,
+              0.1,
+              0.1,
+              0.1
+            ]
+          },
+          "actions": [
+            "PlantTree"
+          ],
+          "jGameGraphicPath": "",
+          "originalGraphicPath": "",
+          "collisionID": 4,
+          "name": "Watering Can",
+          "x": -1,
+          "y": -1,
+          "row": -1,
+          "col": -1,
+          "isMovable": false,
+          "isCollectible": true,
+          "type": "Stock",
+          "objName": "Watering Can"
+        },
+        {
+          "buffs": {
+            "myStats": [
+              0.0,
+              0.2,
+              0.1,
+              0.1,
+              0.1,
+              0.1
+            ]
+          },
+          "actions": [
+            "Boost"
+          ],
+          "jGameGraphicPath": "",
+          "originalGraphicPath": "",
+          "collisionID": 4,
+          "name": "Potion",
+          "x": -1,
+          "y": -1,
+          "row": -1,
+          "col": -1,
+          "isMovable": false,
+          "isCollectible": true,
+          "type": "Stock",
+          "objName": "Potion"
+        },
+        {
+          "buffs": {
+            "myStats": [
+              0.0,
+              0.2,
+              0.1,
+              0.1,
+              0.1,
+              0.1
+            ]
+          },
+          "actions": [
+            "PlaceRock"
+          ],
+          "jGameGraphicPath": "",
+          "originalGraphicPath": "",
+          "collisionID": 4,
+          "name": "Wheelbarrow",
+          "x": -1,
+          "y": -1,
+          "row": -1,
+          "col": -1,
+          "isMovable": false,
+          "isCollectible": true,
+          "type": "Stock",
+          "objName": "Wheelbarrow"
+        }
+      ],
+      "Inventory-Gem-Gem": 2,
+      "Inventory-Coin-Coin": 2,
+      "Inventory-Watering Can-Watering Can": 2,
+      "Inventory-Potion-Potion": 2,
+      "Inventory-Wheelbarrow-Wheelbarrow": 2,
+      "Weapon": [
+        {
+          "PickUp": {
+            "buffs": {
+              "myStats": [
+                0.0,
+                0.0,
+                0.2,
+                0.2,
+                0.2,
+                0.2
+              ]
+            },
+            "actions": [
+              "Boost"
+            ],
+            "jGameGraphicPath": "",
+            "originalGraphicPath": "",
+            "collisionID": 4,
+            "name": "Shield",
+            "x": -1,
+            "y": -1,
+            "row": -1,
+            "col": -1,
+            "isMovable": false,
+            "isCollectible": true,
+            "type": "Weapon",
+            "objName": "Shield"
+          }
+        },
+        {
+          "PickUp": {
+            "buffs": {
+              "myStats": [
+                0.0,
+                0.0,
+                0.2,
+                0.2,
+                0.2,
+                0.2
+              ]
+            },
+            "actions": [
+              "Boost"
+            ],
+            "jGameGraphicPath": "",
+            "originalGraphicPath": "",
+            "collisionID": 4,
+            "name": "Sword",
+            "x": -1,
+            "y": -1,
+            "row": -1,
+            "col": -1,
+            "isMovable": false,
+            "isCollectible": true,
+            "type": "Weapon",
+            "objName": "Sword"
+          }
+        }
+      ],
+      "Action": [
+        "PickUp"
+      ]
+    },
+    "gameObjectDefinitionMapJGPoint(9,9)class": "objects.definitions.UnitDef",
+    "gameObjectDefinitionMapJGPoint(6,9)value": {
+      "levelParams": {
+        "strategy": {
+          "myIntelligence": 0,
+          "myAttackValue": 100,
+          "myDefenseValue": 0,
+          "myMoneyValue": 25,
+          "myObjectiveValue": 25
+        },
+        "team": 1,
+        "stats": {
+          "myStats": [
+            150.0,
+            150.0,
+            200.0,
+            100.0,
+            3.0,
+            2.0
+          ]
+        },
+        "growths": {
+          "myStats": [
+            0.1,
+            0.1,
+            0.1,
+            0.1,
+            0.1,
+            0.1
+          ]
+        },
+        "level": 1,
+        "experience": 0,
+        "jGameGraphicPath": "Intelligence1398965368908",
+        "originalGraphicPath": "/resources/images/standard_enemy_64.png",
+        "collisionID": 2,
+        "name": "Intelligence",
+        "x": 594,
+        "y": 386,
+        "row": 6,
+        "col": 9,
+        "isMovable": true,
+        "isCollectible": false,
+        "type": "Enemy",
+        "objName": "Standard Enemy"
+      },
+      "Inventory": [],
+      "Weapon": [],
+      "Action": [
+        "PickUp"
+      ]
+    },
+    "gameObjectDefinitionMapJGPoint(6,9)class": "objects.definitions.AIUnitDef",
+    "gameObjectDefinitionMapJGPoint(6,3)value": {
+      "PickUp": {
+        "buffs": {
+          "myStats": [
+            0.1,
+            0.5,
+            0.1,
+            0.1,
+            0.1,
+            0.1
+          ]
+        },
+        "actions": [
+          "Boost"
+        ],
+        "jGameGraphicPath": "Default Object-41398965251550",
+        "originalGraphicPath": "/resources/images/standard_gem_64.png",
+        "collisionID": 4,
+        "name": "Default Object-4",
+        "x": 258,
+        "y": 386,
+        "row": 6,
+        "col": 3,
+        "isMovable": false,
+        "isCollectible": true,
+        "type": "Stock",
+        "objName": "Gem"
+      }
+    },
+    "gameObjectDefinitionMapJGPoint(6,3)class": "objects.definitions.PickupObjectDef",
+    "gameObjectDefinitionMapJGPoint(3,3)value": {
+      "levelParams": {
+        "strategy": {
+          "myIntelligence": 99,
+          "myAttackValue": 100,
+          "myDefenseValue": 0,
+          "myMoneyValue": 0,
+          "myObjectiveValue": 0
+        },
+        "team": 1,
+        "stats": {
+          "myStats": [
+            150.0,
+            150.0,
+            200.0,
+            100.0,
+            4.0,
+            2.0
+          ]
+        },
+        "growths": {
+          "myStats": [
+            0.1,
+            0.1,
+            0.1,
+            0.1,
+            0.1,
+            0.1
+          ]
+        },
+        "level": 1,
+        "experience": 0,
+        "jGameGraphicPath": "Strategy1398965374357",
+        "originalGraphicPath": "/resources/images/standard_enemy_64.png",
+        "collisionID": 2,
+        "name": "Strategy",
+        "x": 258,
+        "y": 218,
+        "row": 3,
+        "col": 3,
+        "isMovable": true,
+        "isCollectible": false,
+        "type": "Enemy",
+        "objName": "Standard Enemy"
+      },
+      "Inventory": [],
+      "Weapon": [],
+      "Action": [
+        "PickUp"
+      ]
+    },
+    "gameObjectDefinitionMapJGPoint(3,3)class": "objects.definitions.AIUnitDef",
+    "The Objective of This Level: Capture Point": [
+      0,
+      0,
+      30
+    ],
+    "Objective Name": [
+      "Capture Point"
+    ]
+  }
+}

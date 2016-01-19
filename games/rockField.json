@@ -1,0 +1,664 @@
+{
+  "levelNames": [
+    "Level 1"
+  ],
+  "Level 1": {
+    "levelParams": {
+      "myGameName": "Game 1",
+      "myLevelName": "Level 1",
+      "myTileSize": 0,
+      "myRows": 10,
+      "myCols": 10,
+      "playerfirst": true
+    },
+    "gameObjectDefinitionMapJGPoint": [
+      {
+        "x": 4,
+        "y": 8
+      },
+      {
+        "x": 6,
+        "y": 4
+      },
+      {
+        "x": 3,
+        "y": 5
+      },
+      {
+        "x": 1,
+        "y": 5
+      },
+      {
+        "x": 2,
+        "y": 6
+      },
+      {
+        "x": 4,
+        "y": 7
+      },
+      {
+        "x": 3,
+        "y": 4
+      },
+      {
+        "x": 0,
+        "y": 9
+      },
+      {
+        "x": 4,
+        "y": 2
+      },
+      {
+        "x": 5,
+        "y": 4
+      },
+      {
+        "x": 5,
+        "y": 5
+      },
+      {
+        "x": 7,
+        "y": 5
+      },
+      {
+        "x": 5,
+        "y": 6
+      },
+      {
+        "x": 3,
+        "y": 7
+      },
+      {
+        "x": 3,
+        "y": 6
+      },
+      {
+        "x": 6,
+        "y": 5
+      },
+      {
+        "x": 4,
+        "y": 4
+      },
+      {
+        "x": 5,
+        "y": 7
+      },
+      {
+        "x": 2,
+        "y": 5
+      },
+      {
+        "x": 6,
+        "y": 6
+      },
+      {
+        "x": 4,
+        "y": 3
+      },
+      {
+        "x": 4,
+        "y": 6
+      },
+      {
+        "x": 4,
+        "y": 5
+      }
+    ],
+    "gameObjectDefinitionMapJGPoint(4,8)value": {
+      "jGameGraphicPath": "Default Object-81398618609062",
+      "originalGraphicPath": "/resources/images/standard_movable_rock_64.png",
+      "collisionID": 4,
+      "name": "Default Object-8",
+      "x": 538,
+      "y": 274,
+      "row": 4,
+      "col": 8,
+      "isMovable": true,
+      "isCollectible": false,
+      "type": "Terrain",
+      "objName": "Rock"
+    },
+    "gameObjectDefinitionMapJGPoint(4,8)class": "objects.definitions.TerrainObjectDef",
+    "gameObjectDefinitionMapJGPoint(6,4)value": {
+      "jGameGraphicPath": "Default Object-151398618609069",
+      "originalGraphicPath": "/resources/images/standard_movable_rock_64.png",
+      "collisionID": 4,
+      "name": "Default Object-15",
+      "x": 314,
+      "y": 386,
+      "row": 6,
+      "col": 4,
+      "isMovable": true,
+      "isCollectible": false,
+      "type": "Terrain",
+      "objName": "Rock"
+    },
+    "gameObjectDefinitionMapJGPoint(6,4)class": "objects.definitions.TerrainObjectDef",
+    "gameObjectDefinitionMapJGPoint(3,5)value": {
+      "jGameGraphicPath": "Default Object-21398618609075",
+      "originalGraphicPath": "/resources/images/standard_movable_rock_64.png",
+      "collisionID": 4,
+      "name": "Default Object-2",
+      "x": 370,
+      "y": 218,
+      "row": 3,
+      "col": 5,
+      "isMovable": true,
+      "isCollectible": false,
+      "type": "Terrain",
+      "objName": "Rock"
+    },
+    "gameObjectDefinitionMapJGPoint(3,5)class": "objects.definitions.TerrainObjectDef",
+    "gameObjectDefinitionMapJGPoint(1,5)value": {
+      "jGameGraphicPath": "Default Object-41398618609080",
+      "originalGraphicPath": "/resources/images/standard_movable_rock_64.png",
+      "collisionID": 4,
+      "name": "Default Object-4",
+      "x": 370,
+      "y": 106,
+      "row": 1,
+      "col": 5,
+      "isMovable": true,
+      "isCollectible": false,
+      "type": "Terrain",
+      "objName": "Rock"
+    },
+    "gameObjectDefinitionMapJGPoint(1,5)class": "objects.definitions.TerrainObjectDef",
+    "gameObjectDefinitionMapJGPoint(2,6)value": {
+      "jGameGraphicPath": "Default Object-51398618609086",
+      "originalGraphicPath": "/resources/images/standard_movable_rock_64.png",
+      "collisionID": 4,
+      "name": "Default Object-5",
+      "x": 426,
+      "y": 162,
+      "row": 2,
+      "col": 6,
+      "isMovable": true,
+      "isCollectible": false,
+      "type": "Terrain",
+      "objName": "Rock"
+    },
+    "gameObjectDefinitionMapJGPoint(2,6)class": "objects.definitions.TerrainObjectDef",
+    "gameObjectDefinitionMapJGPoint(4,7)value": {
+      "jGameGraphicPath": "Default Object-71398618609092",
+      "originalGraphicPath": "/resources/images/standard_movable_rock_64.png",
+      "collisionID": 4,
+      "name": "Default Object-7",
+      "x": 482,
+      "y": 274,
+      "row": 4,
+      "col": 7,
+      "isMovable": true,
+      "isCollectible": false,
+      "type": "Terrain",
+      "objName": "Rock"
+    },
+    "gameObjectDefinitionMapJGPoint(4,7)class": "objects.definitions.TerrainObjectDef",
+    "gameObjectDefinitionMapJGPoint(3,4)value": {
+      "jGameGraphicPath": "Default Object-231398618609098",
+      "originalGraphicPath": "/resources/images/standard_movable_rock_64.png",
+      "collisionID": 4,
+      "name": "Default Object-23",
+      "x": 314,
+      "y": 218,
+      "row": 3,
+      "col": 4,
+      "isMovable": true,
+      "isCollectible": false,
+      "type": "Terrain",
+      "objName": "Rock"
+    },
+    "gameObjectDefinitionMapJGPoint(3,4)class": "objects.definitions.TerrainObjectDef",
+    "gameObjectDefinitionMapJGPoint(0,9)value": {
+      "PickUp": {
+        "buffs": {
+          "myStats": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "actions": [],
+        "jGameGraphicPath": "1398618653867",
+        "originalGraphicPath": "/resources/images/flag_64.png",
+        "collisionID": 4,
+        "name": "",
+        "x": 594,
+        "y": 50,
+        "row": 0,
+        "col": 9,
+        "isMovable": false,
+        "isCollectible": true,
+        "type": "Stock",
+        "objName": "Flag"
+      }
+    },
+    "gameObjectDefinitionMapJGPoint(0,9)class": "objects.definitions.PickupObjectDef",
+    "gameObjectDefinitionMapJGPoint(4,2)value": {
+      "jGameGraphicPath": "Default Object-181398618609105",
+      "originalGraphicPath": "/resources/images/standard_movable_rock_64.png",
+      "collisionID": 4,
+      "name": "Default Object-18",
+      "x": 202,
+      "y": 274,
+      "row": 4,
+      "col": 2,
+      "isMovable": true,
+      "isCollectible": false,
+      "type": "Terrain",
+      "objName": "Rock"
+    },
+    "gameObjectDefinitionMapJGPoint(4,2)class": "objects.definitions.TerrainObjectDef",
+    "gameObjectDefinitionMapJGPoint(5,4)value": {
+      "jGameGraphicPath": "Default Object-171398618609111",
+      "originalGraphicPath": "/resources/images/standard_movable_rock_64.png",
+      "collisionID": 4,
+      "name": "Default Object-17",
+      "x": 314,
+      "y": 330,
+      "row": 5,
+      "col": 4,
+      "isMovable": true,
+      "isCollectible": false,
+      "type": "Terrain",
+      "objName": "Rock"
+    },
+    "gameObjectDefinitionMapJGPoint(5,4)class": "objects.definitions.TerrainObjectDef",
+    "gameObjectDefinitionMapJGPoint(5,5)value": {
+      "jGameGraphicPath": "Default Object-121398618609126",
+      "originalGraphicPath": "/resources/images/standard_movable_rock_64.png",
+      "collisionID": 4,
+      "name": "Default Object-12",
+      "x": 370,
+      "y": 330,
+      "row": 5,
+      "col": 5,
+      "isMovable": true,
+      "isCollectible": false,
+      "type": "Terrain",
+      "objName": "Rock"
+    },
+    "gameObjectDefinitionMapJGPoint(5,5)class": "objects.definitions.TerrainObjectDef",
+    "gameObjectDefinitionMapJGPoint(7,5)value": {
+      "jGameGraphicPath": "Default Object-141398618609119",
+      "originalGraphicPath": "/resources/images/standard_movable_rock_64.png",
+      "collisionID": 4,
+      "name": "Default Object-14",
+      "x": 370,
+      "y": 442,
+      "row": 7,
+      "col": 5,
+      "isMovable": true,
+      "isCollectible": false,
+      "type": "Terrain",
+      "objName": "Rock"
+    },
+    "gameObjectDefinitionMapJGPoint(7,5)class": "objects.definitions.TerrainObjectDef",
+    "gameObjectDefinitionMapJGPoint(5,6)value": {
+      "jGameGraphicPath": "Default Object-111398618609134",
+      "originalGraphicPath": "/resources/images/standard_movable_rock_64.png",
+      "collisionID": 4,
+      "name": "Default Object-11",
+      "x": 426,
+      "y": 330,
+      "row": 5,
+      "col": 6,
+      "isMovable": true,
+      "isCollectible": false,
+      "type": "Terrain",
+      "objName": "Rock"
+    },
+    "gameObjectDefinitionMapJGPoint(5,6)class": "objects.definitions.TerrainObjectDef",
+    "gameObjectDefinitionMapJGPoint(3,7)value": {
+      "jGameGraphicPath": "Default Object-61398618609141",
+      "originalGraphicPath": "/resources/images/standard_movable_rock_64.png",
+      "collisionID": 4,
+      "name": "Default Object-6",
+      "x": 482,
+      "y": 218,
+      "row": 3,
+      "col": 7,
+      "isMovable": true,
+      "isCollectible": false,
+      "type": "Terrain",
+      "objName": "Rock"
+    },
+    "gameObjectDefinitionMapJGPoint(3,7)class": "objects.definitions.TerrainObjectDef",
+    "gameObjectDefinitionMapJGPoint(3,6)value": {
+      "jGameGraphicPath": "Default Object-241398618609146",
+      "originalGraphicPath": "/resources/images/standard_movable_rock_64.png",
+      "collisionID": 4,
+      "name": "Default Object-24",
+      "x": 426,
+      "y": 218,
+      "row": 3,
+      "col": 6,
+      "isMovable": true,
+      "isCollectible": false,
+      "type": "Terrain",
+      "objName": "Rock"
+    },
+    "gameObjectDefinitionMapJGPoint(3,6)class": "objects.definitions.TerrainObjectDef",
+    "gameObjectDefinitionMapJGPoint(6,5)value": {
+      "jGameGraphicPath": "Default Object-101398618609151",
+      "originalGraphicPath": "/resources/images/standard_movable_rock_64.png",
+      "collisionID": 4,
+      "name": "Default Object-10",
+      "x": 370,
+      "y": 386,
+      "row": 6,
+      "col": 5,
+      "isMovable": true,
+      "isCollectible": false,
+      "type": "Terrain",
+      "objName": "Rock"
+    },
+    "gameObjectDefinitionMapJGPoint(6,5)class": "objects.definitions.TerrainObjectDef",
+    "gameObjectDefinitionMapJGPoint(4,4)value": {
+      "jGameGraphicPath": "Default Object-201398618609160",
+      "originalGraphicPath": "/resources/images/standard_movable_rock_64.png",
+      "collisionID": 4,
+      "name": "Default Object-20",
+      "x": 314,
+      "y": 274,
+      "row": 4,
+      "col": 4,
+      "isMovable": true,
+      "isCollectible": false,
+      "type": "Terrain",
+      "objName": "Rock"
+    },
+    "gameObjectDefinitionMapJGPoint(4,4)class": "objects.definitions.TerrainObjectDef",
+    "gameObjectDefinitionMapJGPoint(5,7)value": {
+      "jGameGraphicPath": "Default Object-91398618609156",
+      "originalGraphicPath": "/resources/images/standard_movable_rock_64.png",
+      "collisionID": 4,
+      "name": "Default Object-9",
+      "x": 482,
+      "y": 330,
+      "row": 5,
+      "col": 7,
+      "isMovable": true,
+      "isCollectible": false,
+      "type": "Terrain",
+      "objName": "Rock"
+    },
+    "gameObjectDefinitionMapJGPoint(5,7)class": "objects.definitions.TerrainObjectDef",
+    "gameObjectDefinitionMapJGPoint(2,5)value": {
+      "jGameGraphicPath": "Default Object-31398618609166",
+      "originalGraphicPath": "/resources/images/standard_movable_rock_64.png",
+      "collisionID": 4,
+      "name": "Default Object-3",
+      "x": 370,
+      "y": 162,
+      "row": 2,
+      "col": 5,
+      "isMovable": true,
+      "isCollectible": false,
+      "type": "Terrain",
+      "objName": "Rock"
+    },
+    "gameObjectDefinitionMapJGPoint(2,5)class": "objects.definitions.TerrainObjectDef",
+    "gameObjectDefinitionMapJGPoint(6,6)value": {
+      "jGameGraphicPath": "Default Object-131398618609171",
+      "originalGraphicPath": "/resources/images/standard_movable_rock_64.png",
+      "collisionID": 4,
+      "name": "Default Object-13",
+      "x": 426,
+      "y": 386,
+      "row": 6,
+      "col": 6,
+      "isMovable": true,
+      "isCollectible": false,
+      "type": "Terrain",
+      "objName": "Rock"
+    },
+    "gameObjectDefinitionMapJGPoint(6,6)class": "objects.definitions.TerrainObjectDef",
+    "gameObjectDefinitionMapJGPoint(4,3)value": {
+      "jGameGraphicPath": "Default Object-191398618609176",
+      "originalGraphicPath": "/resources/images/standard_movable_rock_64.png",
+      "collisionID": 4,
+      "name": "Default Object-19",
+      "x": 258,
+      "y": 274,
+      "row": 4,
+      "col": 3,
+      "isMovable": true,
+      "isCollectible": false,
+      "type": "Terrain",
+      "objName": "Rock"
+    },
+    "gameObjectDefinitionMapJGPoint(4,3)class": "objects.definitions.TerrainObjectDef",
+    "gameObjectDefinitionMapJGPoint(4,6)value": {
+      "levelParams": {
+        "team": 0,
+        "stats": {
+          "myStats": [
+            150.0,
+            150.0,
+            200.0,
+            100.0,
+            3.0,
+            2.0
+          ]
+        },
+        "growths": {
+          "myStats": [
+            0.1,
+            0.5,
+            0.1,
+            0.1,
+            0.1,
+            0.1
+          ]
+        },
+        "level": 1,
+        "experience": 0,
+        "jGameGraphicPath": "Default Object1398618604023",
+        "originalGraphicPath": "/resources/images/standard_player_64.png",
+        "collisionID": 1,
+        "name": "Default Object-20",
+        "x": 426,
+        "y": 274,
+        "row": 4,
+        "col": 6,
+        "isMovable": true,
+        "isCollectible": false,
+        "type": "Player",
+        "objName": "Standard Player"
+      },
+      "Inventory": [
+        {
+          "buffs": {
+            "myStats": [
+              0.0,
+              0.2,
+              0.1,
+              0.1,
+              0.1,
+              0.1
+            ]
+          },
+          "actions": [
+            "Boost"
+          ],
+          "jGameGraphicPath": "",
+          "originalGraphicPath": "",
+          "collisionID": 4,
+          "name": "Small Potion",
+          "x": -1,
+          "y": -1,
+          "row": -1,
+          "col": -1,
+          "isMovable": false,
+          "isCollectible": true,
+          "type": "Stock",
+          "objName": "Potion"
+        },
+        {
+          "buffs": {
+            "myStats": [
+              0.2,
+              0.5,
+              0.2,
+              0.2,
+              0.2,
+              0.2
+            ]
+          },
+          "actions": [
+            "Boost"
+          ],
+          "jGameGraphicPath": "",
+          "originalGraphicPath": "",
+          "collisionID": 4,
+          "name": "Small Gem",
+          "x": -1,
+          "y": -1,
+          "row": -1,
+          "col": -1,
+          "isMovable": false,
+          "isCollectible": true,
+          "type": "Stock",
+          "objName": "Gem"
+        },
+        {
+          "buffs": {
+            "myStats": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "actions": [
+            "PlaceRock"
+          ],
+          "jGameGraphicPath": "",
+          "originalGraphicPath": "",
+          "collisionID": 4,
+          "name": "Wheelbarrow",
+          "x": -1,
+          "y": -1,
+          "row": -1,
+          "col": -1,
+          "isMovable": false,
+          "isCollectible": true,
+          "type": "Stock",
+          "objName": "Wheelbarrow"
+        }
+      ],
+      "Inventory-Small Potion-Potion": 2,
+      "Inventory-Small Gem-Gem": 2,
+      "Inventory-Wheelbarrow-Wheelbarrow": 2,
+      "Weapon": [
+        {
+          "PickUp": {
+            "buffs": {
+              "myStats": [
+                0.0,
+                0.0,
+                0.2,
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            "actions": [
+              "Boost"
+            ],
+            "jGameGraphicPath": "",
+            "originalGraphicPath": "",
+            "collisionID": 4,
+            "name": "Basic Sword",
+            "x": -1,
+            "y": -1,
+            "row": -1,
+            "col": -1,
+            "isMovable": false,
+            "isCollectible": true,
+            "type": "Weapon",
+            "objName": "Sword"
+          }
+        },
+        {
+          "PickUp": {
+            "buffs": {
+              "myStats": [
+                0.0,
+                0.0,
+                0.0,
+                0.2,
+                0.0,
+                0.0
+              ]
+            },
+            "actions": [
+              "Boost"
+            ],
+            "jGameGraphicPath": "",
+            "originalGraphicPath": "",
+            "collisionID": 4,
+            "name": "Basic Shield",
+            "x": -1,
+            "y": -1,
+            "row": -1,
+            "col": -1,
+            "isMovable": false,
+            "isCollectible": true,
+            "type": "Weapon",
+            "objName": "Shield"
+          }
+        }
+      ],
+      "Action": [
+        "PickUp"
+      ]
+    },
+    "gameObjectDefinitionMapJGPoint(4,6)class": "objects.definitions.UnitDef",
+    "gameObjectDefinitionMapJGPoint(4,5)value": {
+      "PickUp": {
+        "buffs": {
+          "myStats": [
+            0.1,
+            0.5,
+            0.1,
+            0.1,
+            0.1,
+            0.1
+          ]
+        },
+        "actions": [
+          "DestroyRock"
+        ],
+        "jGameGraphicPath": "Default Object1398618618121",
+        "originalGraphicPath": "/resources/images/standard_hammer_64.png",
+        "collisionID": 4,
+        "name": "Default Object-21",
+        "x": 370,
+        "y": 274,
+        "row": 4,
+        "col": 5,
+        "isMovable": true,
+        "isCollectible": true,
+        "type": "Weapon",
+        "objName": "Hammer"
+      }
+    },
+    "gameObjectDefinitionMapJGPoint(4,5)class": "objects.definitions.PickupObjectDef",
+    "The Objective of This Level: Capture Point": [
+      0,
+      9,
+      30
+    ],
+    "Objective Name": [
+      "Capture Point"
+    ]
+  }
+}

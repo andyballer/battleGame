@@ -1,0 +1,24 @@
+html { 
+  background: url(gamepics/turn.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body{
+	width:950px;
+	padding:10px;
+	margin:25px 400px;
+	font-weight:bold;
+	font-size:16;
+	background-color:#ffffff;
+  	border:1px solid black;
+  	opacity:0.85;
+  	filter:alpha(opacity=15);
+}
+
+h1{
+	color:black;
+	text-align: center;
+}

@@ -1,0 +1,14 @@
+*class
+
+# Scaled images
+/scaledImages
+
+*.bat
+/games/default.json
+
+# Package Files #
+*.war
+*.ear
+
+# eclipse files
+/bin

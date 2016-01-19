@@ -1,0 +1,6 @@
+Questions
+
+1) GameObject.java: What is myMovable & myCollectible? Looks like these variables are never set. 
+2) Unit.java: Shouldn't need a getCollisionID method b/c Collision ID's are public JGObject variables 
+	(redundant code)
+3) Level.java: getMap() returns null pointer exception. 

@@ -1,0 +1,96 @@
+
+Armour1	-	0	/resources/animations/Armour1.png	-
+Armour2	-	0	/resources/animations/Armour2.png	-
+Armour3	-	0	/resources/animations/Armour3.png	-
+ArmourEnd	-	0	/resources/animations/ArmourEnd.png	-
+
+Armour	Armour1;Armour2;Armour3;ArmourEnd;		0.3	false
+
+
+Heal1	-	0	/resources/animations/Heal1.png	-
+Heal2	-	0	/resources/animations/Heal2.png	-
+Heal3	-	0	/resources/animations/Heal3.png	-
+Heal4	-	0	/resources/animations/Heal4.png	-
+Heal5	-	0	/resources/animations/Heal5.png	-
+Heal6	-	0	/resources/animations/Heal6.png	-
+Heal7	-	0	/resources/animations/Heal7.png	-
+Heal8	-	0	/resources/animations/Heal8.png	-
+Heal9	-	0	/resources/animations/Heal9.png	-
+Heal10	-	0	/resources/animations/Heal10.png	-
+Heal11	-	0	/resources/animations/Heal11.png	-
+Heal12	-	0	/resources/animations/Heal12.png	-
+Heal13	-	0	/resources/animations/Heal13.png	-
+Heal14	-	0	/resources/animations/Heal14.png	-
+Heal15	-	0	/resources/animations/Heal15.png	-
+HealEnd	-	0	/resources/animations/HealEnd.png	-
+Heal	Heal1;Heal2;Heal3;Heal4;Heal5;Heal6;Heal7;Heal8;Heal9;Heal10;Heal11;Heal12;Heal13;Heal4;Heal15;HealEnd;		0.3	false
+
+LetterA	-	0	/resources/images/LetterA.png	-
+LetterB	-	0	/resources/images/LetterB.png	-
+LetterC	-	0	/resources/images/LetterC.png	-
+LetterD	-	0	/resources/images/LetterD.png	-
+LetterE	-	0	/resources/images/LetterE.png	-
+LetterF	-	0	/resources/images/LetterF.png	-
+LetterG	-	0	/resources/images/LetterG.png	-
+LetterH	-	0	/resources/images/LetterH.png	-
+LetterI	-	0	/resources/images/LetterI.png	-
+LetterJ	-	0	/resources/images/LetterJ.png	-
+LetterK	-	0	/resources/images/LetterK.png	-
+LetterL	-	0	/resources/images/LetterL.png	-
+LetterM	-	0	/resources/images/LetterM.png	-
+LetterN	-	0	/resources/images/LetterN.png	-
+LetterO	-	0	/resources/images/LetterO.png	-
+LetterP	-	0	/resources/images/LetterP.png	-
+LetterQ	-	0	/resources/images/LetterQ.png	-
+LetterR	-	0	/resources/images/LetterR.png	-
+LetterS	-	0	/resources/images/LetterS.png	-
+LetterT	-	0	/resources/images/LetterT.png	-
+LetterU	-	0	/resources/images/LetterU.png	-
+LetterV	-	0	/resources/images/LetterV.png	-
+LetterW	-	0	/resources/images/LetterW.png	-
+LetterX	-	0	/resources/images/LetterX.png	-
+LetterY	-	0	/resources/images/LetterY.png	-
+LetterZ	-	0	/resources/images/LetterZ.png	-
+Letter0	-	0	/resources/images/Letter0.png	-
+Letter1	-	0	/resources/images/Letter1.png	-
+Letter2	-	0	/resources/images/Letter2.png	-
+Letter3	-	0	/resources/images/Letter3.png	-
+Letter4	-	0	/resources/images/Letter4.png	-
+Letter5	-	0	/resources/images/Letter5.png	-
+Letter6	-	0	/resources/images/Letter6.png	-
+Letter7	-	0	/resources/images/Letter7.png	-
+Letter8	-	0	/resources/images/Letter8.png	-
+Letter9	-	0	/resources/images/Letter9.png	-
+
+explode1		-	0	/resources/animations/explode1.png	-
+explode2		-	0	/resources/animations/explode2.png	-
+explode3		-	0	/resources/animations/explode3.png	-
+explode4		-	0	/resources/animations/explode4.png	-
+explode5		-	0	/resources/animations/explode5.png	-
+explode6		-	0	/resources/animations/explode6.png	-
+explode7		-	0	/resources/animations/explode7.png	-
+explode8		-	0	/resources/animations/explode8.png	-
+explode9		-	0	/resources/animations/explode9.png	-
+explode10		-	0	/resources/animations/explode10.png	-
+explode11		-	0	/resources/animations/explode11.png	-
+explode12		-	0	/resources/animations/explode12.png	-
+explode13		-	0	/resources/animations/explode13.png	-
+explode14		-	0	/resources/animations/explode14.png	-
+explode15		-	0	/resources/animations/explode15.png	-
+explode16		-	0	/resources/animations/explode16.png	-
+explode17		-	0	/resources/animations/explode17.png	-
+explode18		-	0	/resources/animations/explode18.png	-
+ExplodeEnd		-	0	/resources/animations/explodeEnd.png	-
+
+Explode	explode1;explode2;explode3;explode4;explode5;explode6;explode7;explode8;explode9;explode10;explode11;explode12;explode13;explode14;explode15;explode16;explode17;explode18;ExplodeEnd;	0.3		false
+
+Blood1	-	0	/resources/animations/Blood1.png	-
+Blood2	-	0	/resources/animations/Blood2.png	-
+Blood3	-	0	/resources/animations/Blood3.png	-
+Blood4	-	0	/resources/animations/Blood4.png	-
+Blood5	-	0	/resources/animations/Blood5.png	-
+Blood6	-	0	/resources/animations/Blood6.png	-
+Blood7	-	0	/resources/animations/Blood7.png	-
+BloodEnd	-	0	/resources/animations/BloodEnd.png	-
+
+Blood	Blood1;Blood2;Blood3;Blood4;Blood5;Blood6;Blood7;BloodEnd;	0.3	false

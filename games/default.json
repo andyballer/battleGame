@@ -1,0 +1,539 @@
+{
+  "levelNames": [
+    "Level 1"
+  ],
+  "Level 1": {
+    "levelParams": {
+      "myGameName": "Game 1",
+      "myLevelName": "Level 1",
+      "myTileSize": 0,
+      "myRows": 10,
+      "myCols": 10,
+      "playerfirst": true
+    },
+    "gameObjectDefinitionMapJGPoint": [
+      {
+        "x": 7,
+        "y": 6
+      },
+      {
+        "x": 5,
+        "y": 5
+      },
+      {
+        "x": 5,
+        "y": 6
+      },
+      {
+        "x": 3,
+        "y": 6
+      },
+      {
+        "x": 4,
+        "y": 4
+      },
+      {
+        "x": 4,
+        "y": 6
+      },
+      {
+        "x": 4,
+        "y": 5
+      },
+      {
+        "x": 6,
+        "y": 7
+      }
+    ],
+    "gameObjectDefinitionMapJGPoint(7,6)value": {
+      "levelParams": {
+        "strategy": {
+          "myIntelligence": 99,
+          "myAttackValue": 15,
+          "myDefenseValue": 0,
+          "myMoneyValue": 20,
+          "myObjectiveValue": 10
+        },
+        "team": 1,
+        "stats": {
+          "myStats": [
+            150.0,
+            150.0,
+            200.0,
+            100.0,
+            3.0,
+            2.0
+          ]
+        },
+        "growths": {
+          "myStats": [
+            0.1,
+            0.5,
+            0.1,
+            0.1,
+            0.1,
+            0.1
+          ]
+        },
+        "level": 1,
+        "experience": 0,
+        "jGameGraphicPath": "Default Object1399155053897",
+        "originalGraphicPath": "/resources/images/medieval_enemy_64.png",
+        "collisionID": 2,
+        "name": "Default Object-6",
+        "x": 426,
+        "y": 442,
+        "row": 7,
+        "col": 6,
+        "isMovable": true,
+        "isCollectible": false,
+        "type": "Enemy",
+        "objName": "Gargoyle"
+      },
+      "Inventory": [],
+      "Weapon": [],
+      "Action": [
+        "PickUp"
+      ]
+    },
+    "gameObjectDefinitionMapJGPoint(7,6)class": "objects.definitions.AIUnitDef",
+    "gameObjectDefinitionMapJGPoint(5,5)value": {
+      "levelParams": {
+        "team": 0,
+        "stats": {
+          "myStats": [
+            150.0,
+            150.0,
+            200.0,
+            100.0,
+            3.0,
+            2.0
+          ]
+        },
+        "growths": {
+          "myStats": [
+            0.1,
+            0.1,
+            0.1,
+            0.1,
+            0.1,
+            0.1
+          ]
+        },
+        "level": 1,
+        "experience": 0,
+        "jGameGraphicPath": "j1399155042096",
+        "originalGraphicPath": "/resources/images/standard_player_64.png",
+        "collisionID": 1,
+        "name": "j",
+        "x": 370,
+        "y": 330,
+        "row": 5,
+        "col": 5,
+        "isMovable": true,
+        "isCollectible": false,
+        "type": "Player",
+        "objName": "Standard Player"
+      },
+      "Inventory": [
+        {
+          "buffs": {
+            "myStats": [
+              0.0,
+              0.2,
+              0.1,
+              0.1,
+              0.1,
+              0.1
+            ]
+          },
+          "actions": [
+            "Boost"
+          ],
+          "jGameGraphicPath": "",
+          "originalGraphicPath": "",
+          "collisionID": 4,
+          "name": "Goblet",
+          "x": -1,
+          "y": -1,
+          "row": -1,
+          "col": -1,
+          "isMovable": false,
+          "isCollectible": true,
+          "type": "Stock",
+          "objName": "Goblet"
+        }
+      ],
+      "Inventory-Goblet-Goblet": 1,
+      "Weapon": [],
+      "Action": [
+        "PickUp"
+      ]
+    },
+    "gameObjectDefinitionMapJGPoint(5,5)class": "objects.definitions.UnitDef",
+    "gameObjectDefinitionMapJGPoint(5,6)value": {
+      "levelParams": {
+        "team": 0,
+        "stats": {
+          "myStats": [
+            150.0,
+            150.0,
+            200.0,
+            100.0,
+            3.0,
+            2.0
+          ]
+        },
+        "growths": {
+          "myStats": [
+            0.1,
+            0.1,
+            0.1,
+            0.1,
+            0.1,
+            0.1
+          ]
+        },
+        "level": 1,
+        "experience": 0,
+        "jGameGraphicPath": "n1399155086179",
+        "originalGraphicPath": "/resources/images/medieval_player_64.png",
+        "collisionID": 1,
+        "name": "n",
+        "x": 426,
+        "y": 330,
+        "row": 5,
+        "col": 6,
+        "isMovable": true,
+        "isCollectible": false,
+        "type": "Player",
+        "objName": "Knight"
+      },
+      "Inventory": [
+        {
+          "buffs": {
+            "myStats": [
+              0.0,
+              0.2,
+              0.1,
+              0.1,
+              0.1,
+              0.1
+            ]
+          },
+          "actions": [
+            "Boost"
+          ],
+          "jGameGraphicPath": "",
+          "originalGraphicPath": "",
+          "collisionID": 4,
+          "name": "Gem",
+          "x": -1,
+          "y": -1,
+          "row": -1,
+          "col": -1,
+          "isMovable": false,
+          "isCollectible": true,
+          "type": "Stock",
+          "objName": "Gem"
+        }
+      ],
+      "Inventory-Gem-Gem": 1,
+      "Weapon": [
+        {
+          "PickUp": {
+            "buffs": {
+              "myStats": [
+                0.0,
+                0.0,
+                0.2,
+                0.2,
+                0.2,
+                0.2
+              ]
+            },
+            "actions": [
+              "DestroyTree"
+            ],
+            "jGameGraphicPath": "",
+            "originalGraphicPath": "",
+            "collisionID": 4,
+            "name": "Axe",
+            "x": -1,
+            "y": -1,
+            "row": -1,
+            "col": -1,
+            "isMovable": false,
+            "isCollectible": true,
+            "type": "Weapon",
+            "objName": "Axe"
+          }
+        }
+      ],
+      "Action": [
+        "PickUp"
+      ]
+    },
+    "gameObjectDefinitionMapJGPoint(5,6)class": "objects.definitions.UnitDef",
+    "gameObjectDefinitionMapJGPoint(3,6)value": {
+      "levelParams": {
+        "strategy": {
+          "myIntelligence": 99,
+          "myAttackValue": 15,
+          "myDefenseValue": 0,
+          "myMoneyValue": 20,
+          "myObjectiveValue": 10
+        },
+        "team": 2,
+        "stats": {
+          "myStats": [
+            150.0,
+            150.0,
+            200.0,
+            100.0,
+            3.0,
+            2.0
+          ]
+        },
+        "growths": {
+          "myStats": [
+            0.1,
+            0.5,
+            0.1,
+            0.1,
+            0.1,
+            0.1
+          ]
+        },
+        "level": 1,
+        "experience": 0,
+        "jGameGraphicPath": "Default Object1399155050170",
+        "originalGraphicPath": "/resources/images/medieval_boss_64.png",
+        "collisionID": 2,
+        "name": "Default Object-3",
+        "x": 426,
+        "y": 218,
+        "row": 3,
+        "col": 6,
+        "isMovable": true,
+        "isCollectible": false,
+        "type": "Enemy",
+        "objName": "Dragon"
+      },
+      "Inventory": [],
+      "Weapon": [],
+      "Action": [
+        "PickUp"
+      ]
+    },
+    "gameObjectDefinitionMapJGPoint(3,6)class": "objects.definitions.AIUnitDef",
+    "gameObjectDefinitionMapJGPoint(4,4)value": {
+      "levelParams": {
+        "team": 0,
+        "stats": {
+          "myStats": [
+            150.0,
+            150.0,
+            200.0,
+            100.0,
+            3.0,
+            2.0
+          ]
+        },
+        "growths": {
+          "myStats": [
+            0.1,
+            0.1,
+            0.1,
+            0.1,
+            0.1,
+            0.1
+          ]
+        },
+        "level": 1,
+        "experience": 0,
+        "jGameGraphicPath": "j1399155025180",
+        "originalGraphicPath": "/resources/images/medieval_player_64.png",
+        "collisionID": 1,
+        "name": "j",
+        "x": 314,
+        "y": 274,
+        "row": 4,
+        "col": 4,
+        "isMovable": true,
+        "isCollectible": false,
+        "type": "Player",
+        "objName": "Knight"
+      },
+      "Inventory": [],
+      "Weapon": [],
+      "Action": [
+        "PickUp"
+      ]
+    },
+    "gameObjectDefinitionMapJGPoint(4,4)class": "objects.definitions.UnitDef",
+    "gameObjectDefinitionMapJGPoint(4,6)value": {
+      "levelParams": {
+        "strategy": {
+          "myIntelligence": 99,
+          "myAttackValue": 15,
+          "myDefenseValue": 0,
+          "myMoneyValue": 20,
+          "myObjectiveValue": 10
+        },
+        "team": 1,
+        "stats": {
+          "myStats": [
+            150.0,
+            150.0,
+            200.0,
+            100.0,
+            3.0,
+            2.0
+          ]
+        },
+        "growths": {
+          "myStats": [
+            0.1,
+            0.5,
+            0.1,
+            0.1,
+            0.1,
+            0.1
+          ]
+        },
+        "level": 1,
+        "experience": 0,
+        "jGameGraphicPath": "Default Object1399155053897",
+        "originalGraphicPath": "/resources/images/medieval_enemy_64.png",
+        "collisionID": 2,
+        "name": "Default Object-4",
+        "x": 426,
+        "y": 274,
+        "row": 4,
+        "col": 6,
+        "isMovable": true,
+        "isCollectible": false,
+        "type": "Enemy",
+        "objName": "Gargoyle"
+      },
+      "Inventory": [],
+      "Weapon": [],
+      "Action": [
+        "PickUp"
+      ]
+    },
+    "gameObjectDefinitionMapJGPoint(4,6)class": "objects.definitions.AIUnitDef",
+    "gameObjectDefinitionMapJGPoint(4,5)value": {
+      "levelParams": {
+        "strategy": {
+          "myIntelligence": 99,
+          "myAttackValue": 15,
+          "myDefenseValue": 0,
+          "myMoneyValue": 20,
+          "myObjectiveValue": 10
+        },
+        "team": 2,
+        "stats": {
+          "myStats": [
+            150.0,
+            150.0,
+            200.0,
+            100.0,
+            3.0,
+            2.0
+          ]
+        },
+        "growths": {
+          "myStats": [
+            0.1,
+            0.5,
+            0.1,
+            0.1,
+            0.1,
+            0.1
+          ]
+        },
+        "level": 1,
+        "experience": 0,
+        "jGameGraphicPath": "Default Object1399155050170",
+        "originalGraphicPath": "/resources/images/medieval_boss_64.png",
+        "collisionID": 2,
+        "name": "Default Object-2",
+        "x": 370,
+        "y": 274,
+        "row": 4,
+        "col": 5,
+        "isMovable": true,
+        "isCollectible": false,
+        "type": "Enemy",
+        "objName": "Dragon"
+      },
+      "Inventory": [],
+      "Weapon": [],
+      "Action": [
+        "PickUp"
+      ]
+    },
+    "gameObjectDefinitionMapJGPoint(4,5)class": "objects.definitions.AIUnitDef",
+    "gameObjectDefinitionMapJGPoint(6,7)value": {
+      "levelParams": {
+        "strategy": {
+          "myIntelligence": 99,
+          "myAttackValue": 15,
+          "myDefenseValue": 0,
+          "myMoneyValue": 20,
+          "myObjectiveValue": 10
+        },
+        "team": 1,
+        "stats": {
+          "myStats": [
+            150.0,
+            150.0,
+            200.0,
+            100.0,
+            3.0,
+            2.0
+          ]
+        },
+        "growths": {
+          "myStats": [
+            0.1,
+            0.5,
+            0.1,
+            0.1,
+            0.1,
+            0.1
+          ]
+        },
+        "level": 1,
+        "experience": 0,
+        "jGameGraphicPath": "Default Object1399155053897",
+        "originalGraphicPath": "/resources/images/medieval_enemy_64.png",
+        "collisionID": 2,
+        "name": "Default Object-7",
+        "x": 482,
+        "y": 386,
+        "row": 6,
+        "col": 7,
+        "isMovable": true,
+        "isCollectible": false,
+        "type": "Enemy",
+        "objName": "Gargoyle"
+      },
+      "Inventory": [],
+      "Weapon": [],
+      "Action": [
+        "PickUp"
+      ]
+    },
+    "gameObjectDefinitionMapJGPoint(6,7)class": "objects.definitions.AIUnitDef",
+    "The Objective of This Level: Kill Enemies": [
+      0,
+      30
+    ],
+    "Objective Name": [
+      "Kill Enemies"
+    ]
+  }
+}
